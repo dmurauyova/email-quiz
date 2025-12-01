@@ -1,18 +1,18 @@
 {
-  "name": "dx-email-marketing-quiz",
-  "version": "1.0.0",
-  "description": "Interactive email marketing quiz for DX Agency",
-  "main": "index.html",
-  "scripts": {
-    "dev": "python3 -m http.server 8080",
-    "dev-alt": "python -m http.server 8080"
-  },
-  "keywords": [
-    "quiz",
-    "email-marketing",
-    "dx-agency"
-  ],
-  "author": "DX Agency",
-  "license": "UNLICENSED",
-  "private": true
+	"name": "dx-email-marketing-quiz",
+	"version": "1.0.0",
+	"description": "Interactive email marketing quiz for DX",
+	"main": "index.html",
+	"scripts": {
+		"dev": "python3 -m http.server 8080",
+		"dev-alt": "python -m http.server 8080"
+	},
+	"keywords": [
+		"quiz",
+		"email-marketing",
+		"dx-agency"
+	],
+	"author": "DX",
+	"license": "UNLICENSED",
+	"private": true
 }

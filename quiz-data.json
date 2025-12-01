@@ -1,150 +1,140 @@
 {
-  "quizTitle": "How Well Do You Know Email Marketing?",
-  "quizSubtitle": "Test your knowledge of email best practices and 2025 innovations",
-  "questions": [
-    {
-      "id": 1,
-      "question": "What percentage of emails are opened on mobile devices in 2025?",
-      "options": [
-        "30% of all emails",
-        "50% of all emails",
-        "Over 70% of all emails",
-        "90% of all emails"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Over 70% of emails are now opened on mobile devices, and 80% of recipients delete emails that don't display properly on mobile. This makes mobile-first responsive design absolutely critical for email success.",
-      "dxFact": "At DX Agency, every email we design follows mobile-first principles with single-column layouts, optimized touch targets (minimum 44x44 pixels), and extensive testing across all major email clients. Our mobile-optimized campaigns achieve 63% higher engagement rates than industry averages.",
-      "statistic": "63% higher mobile engagement"
-    },
-    {
-      "id": 2,
-      "question": "What is the average email open rate across all industries in 2025?",
-      "options": [
-        "21.5%",
-        "42.35%",
-        "15.8%",
-        "68.2%"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The average email open rate across industries in 2025 is 42.35%, though Apple's Mail Privacy Protection has made open rates less reliable by automatically preloading content. Top performers achieve 54.78% open rates, while automated flows average 48.57%.",
-      "dxFact": "DX Agency helps clients exceed industry benchmarks by focusing on engagement metrics beyond open rates. We prioritize click-through rates (CTR) and click-to-open rates (CTOR) which provide more reliable performance indicators. Our strategic approach has helped clients achieve 47% average open rates with 6.2% CTR.",
-      "statistic": "47% average open rates with 6.2% CTR"
-    },
-    {
-      "id": 3,
-      "question": "What percentage of HTML emails currently meet accessibility standards?",
-      "options": [
-        "45% of emails",
-        "23% of emails",
-        "Only 0.1% of emails",
-        "62% of emails"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Shockingly, only 0.1% of HTML emails currently meet WCAG accessibility standards. This means making your emails accessible immediately puts you ahead of 99.9% of competitors. With the European Accessibility Act (EAA) effective June 2025, accessibility is now a legal requirement.",
-      "dxFact": "DX Agency builds every email to WCAG 2.2 Level AA standards, ensuring accessibility compliance and expanding your audience reach. We implement proper alt text, 4.5:1 color contrast ratios, minimum 16px fonts, and semantic HTML structure. Our accessible emails increase engagement by 34% by reaching previously excluded audiences.",
-      "statistic": "34% engagement increase through accessibility"
-    },
-    {
-      "id": 4,
-      "question": "What is the recommended maximum width for email templates?",
-      "options": [
-        "400-450px",
-        "600-640px",
-        "800-900px",
-        "1000px or more"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Setting a max width of 600-640px is the industry standard for email templates. This width ensures your email displays properly across all devices and email clients, providing optimal readability without requiring horizontal scrolling on most screens.",
-      "dxFact": "DX Agency uses a 640px maximum width combined with fluid, responsive tables that adapt seamlessly across devices. We employ single-column layouts for mobile clarity and strategic use of media queries to optimize the experience on every screen size. Our templates achieve 99.2% rendering consistency across email clients.",
-      "statistic": "99.2% cross-client rendering consistency"
-    },
-    {
-      "id": 5,
-      "question": "Which email layout performs best on mobile devices?",
-      "options": [
-        "Three-column grid layout",
-        "Complex multi-column layout",
-        "Single-column layout",
-        "Two-column side-by-side layout"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Single-column layouts perform best on mobile devices because they're clean, scannable, and easy to read. Multi-column layouts often look cramped on mobile and require users to zoom and scroll horizontally, leading to poor user experience and higher deletion rates.",
-      "dxFact": "DX Agency designs all emails with single-column mobile layouts while using strategic media queries to enable multi-column displays on desktop when beneficial. This mobile-first approach combined with progressive enhancement ensures optimal experience across all devices, resulting in 58% lower bounce rates.",
-      "statistic": "58% lower bounce rates"
-    },
-    {
-      "id": 6,
-      "question": "What advanced feature is transforming CRM email integration in 2025?",
-      "options": [
-        "Manual contact tagging",
-        "AI-powered contact segmentation",
-        "Batch-and-blast campaigns",
-        "Weekly newsletter templates"
-      ],
-      "correctAnswer": 1,
-      "explanation": "AI-powered contact segmentation is revolutionizing CRM email integration in 2025. Modern platforms like HubSpot and ActiveCampaign now offer AI agents that automatically group leads based on behavior, engagement patterns, and profile data, enabling hyper-personalized automated workflows.",
-      "dxFact": "DX Agency integrates advanced CRM systems with AI-driven segmentation to deliver precisely targeted campaigns at scale. We leverage behavioral triggers, purchase history, engagement scoring, and predictive analytics to create dynamic segments that automatically update in real-time. This sophisticated automation has driven 71% higher conversion rates for our e-commerce clients.",
-      "statistic": "71% higher conversion rates"
-    },
-    {
-      "id": 7,
-      "question": "What is the minimum font size recommended by WCAG for email body text?",
-      "options": [
-        "12px",
-        "14px",
-        "16px",
-        "18px"
-      ],
-      "correctAnswer": 2,
-      "explanation": "WCAG recommends a minimum of 16px for regular body text to ensure readability for all users, including those with visual impairments. Headings should be 22px or larger. Font size is crucial for accessibility and user experience, especially on mobile devices.",
-      "dxFact": "DX Agency implements WCAG-compliant typography in every email, using minimum 16px body text with 1.5x line spacing for optimal readability. We also ensure proper color contrast ratios (4.5:1 for regular text) and test extensively with screen readers. Our accessible design approach increases email read time by 42% and reduces unsubscribe rates.",
-      "statistic": "42% increase in read time"
-    },
-    {
-      "id": 8,
-      "question": "Which metric is most reliable for measuring email campaign success in 2025?",
-      "options": [
-        "Open rate",
-        "Bounce rate",
-        "Click-to-open rate (CTOR)",
-        "Number of forwards"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Click-to-open rate (CTOR) is now the most reliable metric for email success in 2025. Since Apple's Mail Privacy Protection artificially inflates open rates, marketers prioritize CTOR, which measures the percentage of email openers who clicked, providing genuine engagement insights. The average CTOR is 5.63%.",
-      "dxFact": "DX Agency focuses on engagement metrics that matter: CTOR, conversion rates, and revenue per email. We design strategic CTAs, personalized content paths, and behavior-triggered automations that drive meaningful actions beyond opens. Our data-driven optimization approach achieves average CTOR of 8.9%, significantly exceeding industry standards.",
-      "statistic": "8.9% average CTOR"
-    }
-  ],
-  "resultsMessages": [
-    {
-      "minScore": 0,
-      "maxScore": 3,
-      "title": "Email Apprentice",
-      "message": "You're just getting started with email marketing best practices. There's significant opportunity to improve your email strategy and results.",
-      "cta": "DX Agency specializes in transforming email programs from the ground up. Our experts can audit your current approach and implement proven strategies that drive real results. Let's build your email marketing foundation together."
-    },
-    {
-      "minScore": 4,
-      "maxScore": 5,
-      "title": "Email Enthusiast",
-      "message": "You have a solid grasp of email marketing fundamentals, but there's substantial room to optimize your approach with advanced strategies.",
-      "cta": "You understand the basics, but DX Agency can help you reach the next level with CRM integration, accessibility compliance, and advanced segmentation. Our clients typically see 40-70% improvement in key metrics. Ready to elevate your email game?"
-    },
-    {
-      "minScore": 6,
-      "maxScore": 7,
-      "title": "Email Expert",
-      "message": "Impressive knowledge of email marketing best practices. You're well-versed in current trends and understand what drives email success.",
-      "cta": "You clearly know your email marketing. Imagine what we could accomplish together. DX Agency partners with sophisticated marketers to implement cutting-edge strategies, accessibility compliance, and AI-powered automation that push results even further. Let's talk strategy."
-    },
-    {
-      "minScore": 8,
-      "maxScore": 8,
-      "title": "Email Master",
-      "message": "Outstanding performance. You're at the forefront of email marketing innovation and understand the nuances that separate good campaigns from exceptional ones.",
-      "cta": "You're clearly an email marketing expert who stays ahead of industry trends. DX Agency works with top-tier marketers like you to implement enterprise-level strategies, comprehensive accessibility programs, and sophisticated automation that drive exceptional ROI. Let's push boundaries together."
-    }
-  ],
-  "ctaButton": "Talk to Your DX Team",
-  "ctaUrl": "https://dxagency.com/contact"
+	"quizTitle": "How Well Do You Know Email Marketing?",
+	"quizSubtitle": "Test your knowledge of email best practices and 2025 innovations",
+	"questions": [
+		{
+			"id": 1,
+			"question": "What percentage of emails are opened on mobile devices in 2025?",
+			"options": [
+				"30% of all emails",
+				"50% of all emails",
+				"Over 70% of all emails",
+				"90% of all emails"
+			],
+			"correctAnswer": 2,
+			"explanation": "Over 70% of emails are now opened on mobile devices, and 80% of recipients delete emails that don't display properly on mobile. This makes mobile-first responsive design absolutely critical for email success.",
+			"dxFact": "At DX, every email we design follows mobile-first principles with single-column layouts, optimized touch targets (minimum 44x44 pixels), and extensive testing across all major email clients. Our mobile-optimized campaigns achieve 63% higher engagement rates than industry averages.",
+			"statistic": "63% higher mobile engagement"
+		},
+		{
+			"id": 2,
+			"question": "What is the average email open rate across all industries in 2025?",
+			"options": ["21.5%", "42.35%", "15.8%", "68.2%"],
+			"correctAnswer": 1,
+			"explanation": "The average email open rate across industries in 2025 is 42.35%, though Apple's Mail Privacy Protection has made open rates less reliable by automatically preloading content. Top performers achieve 54.78% open rates, while automated flows average 48.57%.",
+			"dxFact": "DX helps clients exceed industry benchmarks by focusing on engagement metrics beyond open rates. We prioritize click-through rates (CTR) and click-to-open rates (CTOR) which provide more reliable performance indicators. Our strategic approach has helped clients achieve 47% average open rates with 6.2% CTR.",
+			"statistic": "47% average open rates with 6.2% CTR"
+		},
+		{
+			"id": 3,
+			"question": "What percentage of HTML emails currently meet accessibility standards?",
+			"options": [
+				"45% of emails",
+				"23% of emails",
+				"Only 0.1% of emails",
+				"62% of emails"
+			],
+			"correctAnswer": 2,
+			"explanation": "Shockingly, only 0.1% of HTML emails currently meet WCAG accessibility standards. This means making your emails accessible immediately puts you ahead of 99.9% of competitors. With the European Accessibility Act (EAA) effective June 2025, accessibility is now a legal requirement.",
+			"dxFact": "DX builds every email to WCAG 2.2 Level AA standards, ensuring accessibility compliance and expanding your audience reach. We implement proper alt text, 4.5:1 color contrast ratios, minimum 16px fonts, and semantic HTML structure. Our accessible emails increase engagement by 34% by reaching previously excluded audiences.",
+			"statistic": "34% engagement increase through accessibility"
+		},
+		{
+			"id": 4,
+			"question": "What is the recommended maximum width for email templates?",
+			"options": [
+				"400-450px",
+				"600-640px",
+				"800-900px",
+				"1000px or more"
+			],
+			"correctAnswer": 1,
+			"explanation": "Setting a max width of 600-640px is the industry standard for email templates. This width ensures your email displays properly across all devices and email clients, providing optimal readability without requiring horizontal scrolling on most screens.",
+			"dxFact": "DX uses a 640px maximum width combined with fluid, responsive tables that adapt seamlessly across devices. We employ single-column layouts for mobile clarity and strategic use of media queries to optimize the experience on every screen size. Our templates achieve 99.2% rendering consistency across email clients.",
+			"statistic": "99.2% cross-client rendering consistency"
+		},
+		{
+			"id": 5,
+			"question": "Which email layout performs best on mobile devices?",
+			"options": [
+				"Three-column grid layout",
+				"Complex multi-column layout",
+				"Single-column layout",
+				"Two-column side-by-side layout"
+			],
+			"correctAnswer": 2,
+			"explanation": "Single-column layouts perform best on mobile devices because they're clean, scannable, and easy to read. Multi-column layouts often look cramped on mobile and require users to zoom and scroll horizontally, leading to poor user experience and higher deletion rates.",
+			"dxFact": "DX designs all emails with single-column mobile layouts while using strategic media queries to enable multi-column displays on desktop when beneficial. This mobile-first approach combined with progressive enhancement ensures optimal experience across all devices, resulting in 58% lower bounce rates.",
+			"statistic": "58% lower bounce rates"
+		},
+		{
+			"id": 6,
+			"question": "What advanced feature is transforming CRM email integration in 2025?",
+			"options": [
+				"Manual contact tagging",
+				"AI-powered contact segmentation",
+				"Batch-and-blast campaigns",
+				"Weekly newsletter templates"
+			],
+			"correctAnswer": 1,
+			"explanation": "AI-powered contact segmentation is revolutionizing CRM email integration in 2025. Modern platforms like HubSpot and ActiveCampaign now offer AI agents that automatically group leads based on behavior, engagement patterns, and profile data, enabling hyper-personalized automated workflows.",
+			"dxFact": "DX integrates advanced CRM systems with AI-driven segmentation to deliver precisely targeted campaigns at scale. We leverage behavioral triggers, purchase history, engagement scoring, and predictive analytics to create dynamic segments that automatically update in real-time. This sophisticated automation has driven 71% higher conversion rates for our e-commerce clients.",
+			"statistic": "71% higher conversion rates"
+		},
+		{
+			"id": 7,
+			"question": "What is the minimum font size recommended by WCAG for email body text?",
+			"options": ["12px", "14px", "16px", "18px"],
+			"correctAnswer": 2,
+			"explanation": "WCAG recommends a minimum of 16px for regular body text to ensure readability for all users, including those with visual impairments. Headings should be 22px or larger. Font size is crucial for accessibility and user experience, especially on mobile devices.",
+			"dxFact": "DX implements WCAG-compliant typography in every email, using minimum 16px body text with 1.5x line spacing for optimal readability. We also ensure proper color contrast ratios (4.5:1 for regular text) and test extensively with screen readers. Our accessible design approach increases email read time by 42% and reduces unsubscribe rates.",
+			"statistic": "42% increase in read time"
+		},
+		{
+			"id": 8,
+			"question": "Which metric is most reliable for measuring email campaign success in 2025?",
+			"options": [
+				"Open rate",
+				"Bounce rate",
+				"Click-to-open rate (CTOR)",
+				"Number of forwards"
+			],
+			"correctAnswer": 2,
+			"explanation": "Click-to-open rate (CTOR) is now the most reliable metric for email success in 2025. Since Apple's Mail Privacy Protection artificially inflates open rates, marketers prioritize CTOR, which measures the percentage of email openers who clicked, providing genuine engagement insights. The average CTOR is 5.63%.",
+			"dxFact": "DX focuses on engagement metrics that matter: CTOR, conversion rates, and revenue per email. We design strategic CTAs, personalized content paths, and behavior-triggered automations that drive meaningful actions beyond opens. Our data-driven optimization approach achieves average CTOR of 8.9%, significantly exceeding industry standards.",
+			"statistic": "8.9% average CTOR"
+		}
+	],
+	"resultsMessages": [
+		{
+			"minScore": 0,
+			"maxScore": 3,
+			"title": "Email Apprentice",
+			"message": "You're just getting started with email marketing best practices. There's significant opportunity to improve your email strategy and results.",
+			"cta": "DX specializes in transforming email programs from the ground up. Our experts can audit your current approach and implement proven strategies that drive real results. Let's build your email marketing foundation together."
+		},
+		{
+			"minScore": 4,
+			"maxScore": 5,
+			"title": "Email Enthusiast",
+			"message": "You have a solid grasp of email marketing fundamentals, but there's substantial room to optimize your approach with advanced strategies.",
+			"cta": "You understand the basics, but DX can help you reach the next level with CRM integration, accessibility compliance, and advanced segmentation. Our clients typically see 40-70% improvement in key metrics. Ready to elevate your email game?"
+		},
+		{
+			"minScore": 6,
+			"maxScore": 7,
+			"title": "Email Expert",
+			"message": "Impressive knowledge of email marketing best practices. You're well-versed in current trends and understand what drives email success.",
+			"cta": "You clearly know your email marketing. Imagine what we could accomplish together. DX partners with sophisticated marketers to implement cutting-edge strategies, accessibility compliance, and AI-powered automation that push results even further. Let's talk strategy."
+		},
+		{
+			"minScore": 8,
+			"maxScore": 8,
+			"title": "Email Master",
+			"message": "Outstanding performance. You're at the forefront of email marketing innovation and understand the nuances that separate good campaigns from exceptional ones.",
+			"cta": "You're clearly an email marketing expert who stays ahead of industry trends. DX works with top-tier marketers like you to implement enterprise-level strategies, comprehensive accessibility programs, and sophisticated automation that drive exceptional ROI. Let's push boundaries together."
+		}
+	],
+	"ctaButton": "Talk to Your DX Team",
+	"ctaUrl": "https://dxagency.com/contact"
 }
