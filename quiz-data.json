@@ -111,28 +111,28 @@
 			"maxScore": 3,
 			"title": "Email Apprentice",
 			"message": "You're just getting started with email marketing best practices. There's significant opportunity to improve your email strategy and results.",
-			"cta": "DX specializes in transforming email programs from the ground up. Our experts can audit your current approach and implement proven strategies that drive real results. Let's build your email marketing foundation together."
+			"cta": "Let’s tighten up the fundamentals together — we can help simplify and improve what’s already in place."
 		},
 		{
 			"minScore": 4,
 			"maxScore": 5,
 			"title": "Email Enthusiast",
 			"message": "You have a solid grasp of email marketing fundamentals, but there's substantial room to optimize your approach with advanced strategies.",
-			"cta": "You understand the basics, but DX can help you reach the next level with CRM integration, accessibility compliance, and advanced segmentation. Our clients typically see 40-70% improvement in key metrics. Ready to elevate your email game?"
+			"cta": "You’ve got the basics. Let’s polish the parts that matter and level things up."
 		},
 		{
 			"minScore": 6,
 			"maxScore": 7,
 			"title": "Email Expert",
 			"message": "Impressive knowledge of email marketing best practices. You're well-versed in current trends and understand what drives email success.",
-			"cta": "You clearly know your email marketing. Imagine what we could accomplish together. DX partners with sophisticated marketers to implement cutting-edge strategies, accessibility compliance, and AI-powered automation that push results even further. Let's talk strategy."
+			"cta": "You know your stuff — if you want to try more advanced tactics, we’re here to support."
 		},
 		{
 			"minScore": 8,
 			"maxScore": 8,
 			"title": "Email Master",
 			"message": "Outstanding performance. You're at the forefront of email marketing innovation and understand the nuances that separate good campaigns from exceptional ones.",
-			"cta": "You're clearly an email marketing expert who stays ahead of industry trends. DX works with top-tier marketers like you to implement enterprise-level strategies, comprehensive accessibility programs, and sophisticated automation that drive exceptional ROI. Let's push boundaries together."
+			"cta": "You’re crushing it. If you want to push things even further, we’re always down to help."
 		}
 	],
 	"ctaButton": "Talk to Your DX Team",
