@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Marketing Quiz - DX Agency</title>
+    <meta name="description" content="Test your knowledge of email marketing best practices and 2025 innovations with DX Agency's interactive quiz.">
+    <link rel="icon" type="image/webp" href="DX-Logo.webp">
+    <link rel="apple-touch-icon" href="DX-Logo.webp">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="landing-page" class="screen active">
+            <div class="logo-section">
+                <img src="https://dxagency.com/wp-content/themes/DX/public/build/assets/DX-Logo-CweSzaiG.webp" alt="DX Agency" class="dx-logo-img">
+            </div>
+            <h1 class="main-title" id="quiz-title">How Well Do You Know Email Marketing?</h1>
+            <p class="subtitle" id="quiz-subtitle">Test your knowledge of email best practices and 2025 innovations</p>
+            <button class="btn btn-primary btn-large" id="start-btn">Start Quiz</button>
+            <div class="landing-features">
+                <div class="feature-item">
+                    <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 8L10.89 13.26C11.2187 13.4793 11.6049 13.5963 12 13.5963C12.3951 13.5963 12.7813 13.4793 13.11 13.26L21 8M5 19H19C19.5304 19 20.0391 18.7893 20.4142 18.4142C20.7893 18.0391 21 17.5304 21 17V7C21 6.46957 20.7893 5.96086 20.4142 5.58579C20.0391 5.21071 19.5304 5 19 5H5C4.46957 5 3.96086 5.21071 3.58579 5.58579C3.21071 5.96086 3 6.46957 3 7V17C3 17.5304 3.21071 18.0391 3.58579 18.4142C3.96086 18.7893 4.46957 19 5 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p>8 Questions</p>
+                </div>
+                <div class="feature-item">
+                    <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p>2025 Trends</p>
+                </div>
+                <div class="feature-item">
+                    <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="12" cy="12" r="6" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                    </svg>
+                    <p>Best Practices</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="quiz-page" class="screen">
+            <div class="progress-section">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <p class="progress-text">Question <span id="current-question">1</span> of <span id="total-questions">8</span></p>
+            </div>
+
+            <div class="question-section">
+                <h2 class="question-title" id="question-text">Question will appear here</h2>
+                <div class="options-container" id="options-container">
+                </div>
+            </div>
+
+            <div class="quiz-controls">
+                <button class="btn btn-restart" id="restart-quiz-btn">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 12C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M12 2L8 6L12 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Restart
+                </button>
+                <div class="navigation-buttons">
+                    <button class="btn btn-secondary" id="prev-btn" disabled>Previous</button>
+                    <button class="btn btn-primary" id="next-btn" disabled>Next Question</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="feedback-page" class="screen">
+            <div class="feedback-content">
+                <div class="feedback-icon" id="feedback-icon">
+                </div>
+                <h2 class="feedback-title" id="feedback-title">Correct!</h2>
+
+                <div class="explanation-box">
+                    <h3>Why this answer?</h3>
+                    <p id="explanation-text">Explanation will appear here</p>
+                </div>
+
+                <div class="dx-fact-box">
+                    <div class="dx-fact-header">
+                        <svg class="lightbulb-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C10.0222 2 8.08879 2.58649 6.4443 3.6853C4.79981 4.78412 3.51809 6.3459 2.76121 8.17317C2.00433 10.0004 1.8063 12.0111 2.19215 13.9509C2.578 15.8907 3.53041 17.6725 4.92894 19.0711C6.32746 20.4696 8.10929 21.422 10.0491 21.8079C11.9889 22.1937 13.9996 21.9957 15.8268 21.2388C17.6541 20.4819 19.2159 19.2002 20.3147 17.5557C21.4135 15.9112 22 13.9778 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7363 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2V2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 6V12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M12 16H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <h3>Did you know?</h3>
+                    </div>
+                    <p id="dx-fact-text">DX fact will appear here</p>
+                    <div class="statistic" id="statistic-text">
+                    </div>
+                </div>
+
+                <button class="btn btn-primary btn-large" id="continue-btn">Continue</button>
+            </div>
+        </div>
+
+        <div id="results-page" class="screen">
+            <div class="results-content">
+                <div class="score-circle">
+                    <div class="score-number" id="score-display">0/8</div>
+                </div>
+                <h2 class="results-title" id="results-title">Email Master!</h2>
+                <p class="results-message" id="results-message">You're an email marketing expert!</p>
+
+                <div class="results-breakdown">
+                    <h3>Your Performance</h3>
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">Correct Answers:</span>
+                        <span class="breakdown-value" id="correct-count">0</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">Success Rate:</span>
+                        <span class="breakdown-value" id="success-rate">0%</span>
+                    </div>
+                </div>
+
+                <div class="cta-box">
+                    <h3 id="cta-message">Want to discuss your results?</h3>
+                    <a href="https://dxagency.com/contact" class="btn btn-primary btn-large" id="cta-button">Talk to Your DX Team</a>
+                    <button class="btn btn-secondary" id="retake-btn">Retake Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 DX Agency.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
